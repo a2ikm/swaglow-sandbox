@@ -1,0 +1,6 @@
+type: object
+peroperties:
+  id:
+    type: integer
+  name:
+    type: string
