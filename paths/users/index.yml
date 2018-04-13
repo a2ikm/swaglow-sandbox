@@ -4,6 +4,4 @@ get:
       content:
         application/msgpack:
           schema:
-            type: object
-            properties:
-              $ref: #/definitions/UsersIndexResponse
+            $ref: #/definitions/UsersIndexResponse
