@@ -1,0 +1,12 @@
+get:
+  parameters:
+    - name: user_id
+      type: integer
+      in: query
+      required: true
+  responses:
+    default:
+      content:
+        application/msgpack:
+          schema:
+            $ref: #/definitions/UsersShowResponse
